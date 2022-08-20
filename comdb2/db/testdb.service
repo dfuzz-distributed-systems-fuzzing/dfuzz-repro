@@ -1,0 +1,11 @@
+[Unit]
+Description=Comdb2 database instance for testdb
+
+[Service]
+ExecStart=/root/ljie_workspace/comdb2/bin_original/bin/comdb2 --lrl /root/ljie_workspace/comdb2/db/testdb.lrl testdb
+User=root
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+table sqlite_stat1 4224
+	data files: 0000000000030000
+	blob files
+	index files
+		index num 0: 0000000000040000
+table sqlite_stat4 1158
+	data files: 0000000000070000
+	blob files
+	index files
+		index num 0: 0000000000080000
